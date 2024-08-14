@@ -32,7 +32,7 @@ sum_result_even=0
 sum_result_odd=0
 
 while x<n:
-    x += 1
+    x += 2
     if x % 2 ==0 :
         sum_result_even +=x
     else :
