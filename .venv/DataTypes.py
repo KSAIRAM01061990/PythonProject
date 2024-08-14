@@ -38,7 +38,7 @@ y=math.sqrt(x)
 print(y)
 
 
-x=5.2
+x=5.3
 y=8.5
 print ("eculidian distance x:",x,"  y:",y  , math.hypot(x,y))
 
