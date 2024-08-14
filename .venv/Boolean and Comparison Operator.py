@@ -61,6 +61,7 @@ print(rs_fruit)
 fruit="apples"
 if fruit=="apple":
     print("yes")
+
 else :
     print("no")
 
