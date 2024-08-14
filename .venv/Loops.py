@@ -24,19 +24,34 @@
 
 
 # calculate sum of odd numbers
+#
+# n=int(input(" enter value up to calculate odd and even sum values  : "))
+# x=0;
+# # sum_result=0
+# sum_result_even=0
+# sum_result_odd=0
+#
+# while x<n:
+#     x += 2
+#     if x % 2 ==0 :
+#         sum_result_even +=x
+#     else :
+#         sum_result_odd +=x
+#
+# print( "sumof even number ", sum_result_even )
+# print( "sumof odd number ", sum_result_odd)
 
-n=int(input(" enter value up to calculate odd and even sum values  : "))
-x=0;
-# sum_result=0
-sum_result_even=0
-sum_result_odd=0
 
-while x<n:
-    x += 2
-    if x % 2 ==0 :
-        sum_result_even +=x
-    else :
-        sum_result_odd +=x
+# by using for loop can you find the inserted number is prime number or not
 
-print( "sumof even number ", sum_result_even )
-print( "sumof odd number ", sum_result_odd)
+x=int(input("enter input number : "))
+
+for div in range(2,x):
+    if not x % div :
+        print("not prime number")
+        break
+else :
+        print("prime number :",x)
+
+
+
