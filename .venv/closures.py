@@ -23,3 +23,14 @@ def outer_fun():
 
 a=outer_fun()
 print(a())
+
+# How to call the func as a argument to the another function
+
+def function1():
+    print(" i am a function 1")
+
+def function2(fun):
+    print(" I am a function 2 will be calling function 1")
+    return fun()
+
+function2(function1)
