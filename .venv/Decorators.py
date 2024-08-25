@@ -1,4 +1,4 @@
-# decorators example with out arguments
+# decorators example without arguments
 
 def upper(fun):
     def inner():
@@ -88,3 +88,23 @@ def div1(a,b,c):
 
 print(div(10,2))
 print(div1(12,2,2))
+
+# How to apply the decorators on calss
+def namecheck(method):
+    def inner(name_referensh):
+        if name_referensh.name == "Sairam":
+            print("hey my name is also same ")
+        else :
+            return method(name_referensh)
+    return inner
+class printing:
+    def __init__(self,name):
+        self.name = name
+    @namecheck
+    def print_name(self):
+        print("entered user name is : " , self.name)
+
+a=printing("Sairam")
+a.print_name()
+
+# How to use clss as a decorators
