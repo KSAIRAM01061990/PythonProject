@@ -12,7 +12,7 @@ class person:
             return fullname
 
 
-obj = person('sairam',' Kanamarlapudi',35,'Male')
+obj = person('sairam','Kanamarlapudi',35,'Male')
 print(obj.concatenatename())
 
 print(obj.firstname)
@@ -31,7 +31,7 @@ class person1():
         self.gender = gender
 
     def person2(self,languages):
-        print(f" list of languages know : {languages}")
+        print(f"list of languages know : {languages}")
 
 class employeedata(person1):  # calling parent class in to child class
     def __init__(self,firstname,lastname,age,gender,salary,jobtitle):
@@ -41,7 +41,7 @@ class employeedata(person1):  # calling parent class in to child class
      self.jobtitle = jobtitle
 
     def display_info(self):
-        print(f" employee name {self.firstname}{self.lastname} work as a {self.jobtitle}")
+        print(f"Employee name {self.firstname}{self.lastname} work as a {self.jobtitle}")
 
 
 obj = employeedata('sairam',' Kanamarlapudi',35,'male', '$20','Data engineer')
