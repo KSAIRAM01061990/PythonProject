@@ -35,7 +35,8 @@ class person1():
 
 class employeedata(person1):  # calling parent class in to child class
     def __init__(self,firstname,lastname,age,gender,salary,jobtitle):
-     person1.__init__(self,firstname,lastname,age,gender)
+     # person1.__init__(self,firstname,lastname,age,gender)
+     super().__init__(firstname, lastname, age, gender)
      self.salary = salary
      self.jobtitle = jobtitle
 
