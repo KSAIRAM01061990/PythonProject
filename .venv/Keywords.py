@@ -11,4 +11,9 @@ a=17.8
 print(math.ceil(a))
 print(math.floor(a))
 print(math.sqrt(a))
+print(type(a))
+
+class a :
+    pass
+print(dir(a))
 
