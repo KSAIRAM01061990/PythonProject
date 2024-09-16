@@ -133,3 +133,21 @@ print(value2)
 value1.append('2')
 print(value1)
 print(value2)
+
+a=value1.count('2')
+print(a)
+
+
+value3=[1,2,4,5,8,9,10]
+print(max(value3))
+print(min(value3))
+print(len(value3))
+print(sorted(value3))
+print(sum(value3))
+
+# how to pass the input values as a list
+print(" Enter the input values : ", input().split())
+# How to enter the input values to list as a intiger
+print(" Enter input values : ", list(map(int,input().split())) )
+
+print("hello ")
