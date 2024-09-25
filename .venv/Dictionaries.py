@@ -47,3 +47,28 @@ for values in d.values():
 # get method
 
 print(d.get("name"))
+
+dict1={1:'a',2:'b',3:'c',4:'d'}
+print(dict1)
+print(dict1.items())
+print(dict1.keys())
+print(list(dict1))
+print(tuple(dict1))
+print(set(dict1))
+print(dict1.values())
+print(dict1.get(1))
+dict1[1]='abc'
+print(dict1)
+dict1.update({10:'abcde'})
+print(dict1)
+dict1.popitem()
+print(dict1)
+dict1.pop(3)
+print(dict1)
+dict1.clear()
+print(dict1)
+
+
+
+
+
