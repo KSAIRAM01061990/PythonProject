@@ -64,7 +64,7 @@ set1.pop()
 print(set1)
 
 # remove()
-set1.remove('k')
+#set1.remove('k')
 #set1.remove('l')
 print(set1)
 
@@ -79,4 +79,56 @@ set2={'a','b','c','d'}
 print(set1.union(set2))
 set1.update(set2)
 print(set1)
+
+# difference method
+
+set1 = {1,2,3,4,5,6,7,8}
+set2 = {4,5,6,7,8}
+
+print(set1.difference(set2))
+
+# difference_update()
+
+set1={1,2,3,4,5,6}
+set2={4,5,6,7,8}
+
+set1.difference_update(set2)
+print(set1)
+
+# intersection menthod
+
+set1={4,5,6,7,8,9}
+set2={5,3,6,7,2,8}
+print(set1.intersection(set2))
+
+# isdisjoint menthod
+
+set1={4}
+set2={5,3,6,7,2,8}
+print(set1.isdisjoint(set2))
+
+# symmetric_difference() method
+
+set1={1,2,3,4,5,6,7,9}
+set2={9,8,10,11,23,45}
+
+print(set1.symmetric_difference(set2))
+
+# issubset,issuperset
+
+# buit in functions
+
+set1 ={1,2,3,4,5,6,7,9}
+print(sum(set1))
+print(len(set1))
+print(max(set1))
+print(min(set1))
+print(sorted(set1))
+
+print("enter values : " )
+set1 = set(input().split())
+print(set1)
+
+a= int( input())
+print(a)
 
