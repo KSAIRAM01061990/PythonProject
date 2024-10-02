@@ -44,14 +44,33 @@
 
 # by using for loop can you find the inserted number is prime number or not
 
-x=int(input("enter input number : "))
+# x=int(input("enter input number : "))
+#
+# for div in range(2,x):
+#     if not x % div :
+#         print("not prime number")
+#         break
+# else :
+#         print("prime number :",x)
 
-for div in range(2,x):
-    if not x % div :
-        print("not prime number")
-        break
-else :
-        print("prime number :",x)
+# a=int(input("enter value : "))
+# b=10
+#
+# while a<=100 :
+#     print(a)
+#     a += 1
+# # x = int(input("enter value : "))
+# # for i in range (2,x,2):
+# #     print(i)
+
+
+print((1,'a','b')+(2,4,5,6,7))
+
+print(2**3)
+
+print(2 in [1,2,3,4])
+print(2 not in [1,2,3,4,5])
+
 
 
 
